@@ -14,6 +14,9 @@ public class AvvioServer
      public static void main(String[] args) 
      {
         Server s = new Server(2000);
+        s.Ascolto();
+        s.Scrivi("benvenuto client");
+        s.Leggi();
     }
     
 }
